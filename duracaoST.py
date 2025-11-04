@@ -14,3 +14,4 @@ st.markdown("<h2 style='text-align: left;'>Resultados:</h2>", unsafe_allow_html=
 st.write(f"O tempo em horas é: {horas:.0f}")
 st.write(f"O tempo em minutos é: {minutos:.0f}")
 st.write(f"O tempo em segundos é: {segundos:.0f}")
+#aula05 finalizada
