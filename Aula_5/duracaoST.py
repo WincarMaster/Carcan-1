@@ -3,7 +3,7 @@ import streamlit as st
 TITULO = "Calculadora duração de tempo"
 st.title(TITULO)
 #entrada de dados
-tempo = st.number_input("Digite o tempo em segundos")
+tempo = st.number_input("Digite o tempo em segundos",min_value=0.0,step=1.0,)
 #processamento de dados
 horas = tempo // 3600
 minutos = (tempo % 3600) // 60
